@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {padding: 0; margin: 0;}
+        ul, li {list-style: none;}
+        .gnb {
+            text-align: center;
+            background-color: black;
+        }
+        .gnb > li {
+            display: inline-block;
+        }
+        .gnb > li > a {
+            display: block;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 13px;
+        }
+        .gnb > li > a:hover {
+            text-decoration: underline;
+        }
+
+        .back { 
+            height: 350px;
+            border: ipx solid #777;
+
+            background-image: url('d.jpg'); 
+            background-repeat: no-repeat;
+            
+            background-position: 40%;
+            
+        }
+
+        .con { 
+            margin: 50px 200px;
+            font-weight: 600;
+            width: 600px;
+            background-position: 500%;
+        }
+
+        .con2 {
+            border: 1px solid #777;
+            padding: 20px;
+            font-weight: 400;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+    <nav class="box">
+        <ul class="gnb">
+            <li><a href="">메뉴</a></li>
+            <li><a href="">메뉴</a></li>
+            <li><a href="">메뉴</a></li>
+            <li><a href="">메뉴</a></li>
+        </ul>
+    </nav>
+
+    <div class="back"></div>
+
+    <div class="con">
+        오늘의 발견
+        <p class="con2">
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+            본문내용...<br>
+        </p>
+    </div>    
+
+
+</body>
+</html>
