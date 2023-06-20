@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {margin: 0; padding: 0;}
+
+        .wrap {
+            margin: 0 auto;
+            border: 1px solid #777;
+            width: 500px;
+           
+            
+            
+        }
+
+        .profile {
+            position: absolute;
+        }
+
+        .content {
+            margin-left: 100px;
+            padding: 10px;
+           
+        }
+
+        .control {
+            overflow: hidden;
+        }
+
+        .left {
+            float: left;
+            width: 50%;
+        }
+        .right {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="profile">
+            <img class="fish" src="img/bgimg.png" alt="">
+        </div>
+        <div class="content">
+            <textarea cols="52" rows="15">
+                힌트: 이미지영역을 position:absolute를 사용합니다. <br>
+                텍스트영역을 패딩left를 사용합니다.
+            </textarea>
+           
+            <div class="control">
+                <div class="left">
+                    <input type="text">
+                    <input type="text">
+                </div>
+                <button class="right">등록하기</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

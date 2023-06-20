@@ -1,0 +1,108 @@
+header {border-top: 3px solid green;}
+header .wrap {
+     border-bottom: 1px solid #ddd;
+}
+header .wrap .top {width: 1008px; margin: 0 auto;overflow: hidden;}
+header .wrap .top .top_left {float: left; padding: 10px 8px 10px 0; font-size: 12px; color: #777;}
+header .wrap .top .top_right {float: right;}
+
+.top_right ul li {display: inline; border-left: 1px solid #ddd;}
+.top_right ul li a {display: inline-block; padding: 10px 8px; font-size: 12px; text-decoration: none; color: #777;}
+
+
+header .wrap .mid {width: 1800; margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ##########################################
+##########section ############################ */
+
+section .wrap {width: 1008px; margin: 0 auto; }
+
+section .content {overflow: hidden;}
+section .list-wrap {width: 480px; float: left;}
+section .slide-wrap {width: 236px; float: left;}
+section .user-wrap {width: 280px; float: left;}
+
+.list-wrap ul {overflow: hidden;}
+.list-wrap ul li {float: left; width: 33.3333%; position: relative;}
+
+/* 이미지의 가수명 역역 */
+.list-wrap ul li a {position: relative;}
+.list-wrap ul li a .singer {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;
+    opacity: 0.9;
+}
+
+.list-wrap ul li .hover-cont {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 155px;
+    height: 155px;
+    background-color: black;
+    opacity: 0; /* 호버가 닿으면 1로 변경 */
+    z-index: 10; /* 가장 위쪽 */
+
+    transition: opacity .5s ease-in-out;
+}
+
+
+/* 호버 */
+.list-wrap ul li:hover > .hover-cont {
+    opacity: 1;
+}
+
+.list-wrap ul li .hover-cont a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+
+    display: inline-block;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*  */
+.slide-wrap {margin-left: 4px;}
+
+.user-wrap {margin-left: 8px; height: 118px;}
+.user-wrap > .login-wrap {
+    border: 1px solid #ddd;
+    height: 118px;
+}
+
+.user-wrap > .promotion-wrap {
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
