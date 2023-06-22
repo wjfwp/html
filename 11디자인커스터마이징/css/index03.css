@@ -1,0 +1,55 @@
+p {
+    margin: 0 0 10px;
+}
+
+.detail-info {
+    min-height: 345px;
+}
+.detail-info > .title {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.detail-info > .price {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.detail-info > .delivery {
+    font-size: 14px;
+    color: #888;
+}
+
+
+
+.detail-control > .price {
+    overflow: hidden;
+}
+.detail-control > .price  > .left {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+}
+.detail-control > .price  > .right {
+    float: right;
+    font-size: 30px;
+    color: #333333;
+}
+
+.detail-control > .order {
+    overflow: hidden;
+}
+.detail-control > .order > .left {
+    float: left;
+    width: 50%;
+    font-size: 18px;
+    padding: 6px 12px;
+    height: 60px;
+}
+.detail-control > .order > .right {
+    float: right;
+    width: 50%;
+    font-size: 18px;
+    padding: 6px 12px;
+    height: 60px;
+}
